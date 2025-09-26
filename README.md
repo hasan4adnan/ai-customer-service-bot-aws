@@ -4,6 +4,9 @@ An AI-powered customer service assistant built on AWS Bedrock (Claude 3.5 Sonnet
 
 This bot can handle customer queries, store conversation history, and send alerts when issues occur — all using AWS managed services.
 
+<img width="1109" height="706" alt="Ekran Resmi 2025-09-26 18 47 39" src="https://github.com/user-attachments/assets/ae8885df-3fba-48ed-8a10-74148e160b99" />
+
+
 ## 🚀 Features
 - **Natural Conversations** powered by Claude 3.5 Sonnet via Amazon Bedrock
 - **Serverless Backend** with AWS Lambda + API Gateway
@@ -79,6 +82,8 @@ npm start
 
 ## 🧪 Testing
 Use Postman or curl to test API Gateway:
+<img width="2048" height="1262" alt="Adsız tasarım-3 kopyası 2" src="https://github.com/user-attachments/assets/1b587262-f111-448c-bbfd-31f78c3de3c0" />
+
 ```bash
 curl -X POST https://<api_id>.execute-api.<region>.amazonaws.com/dev \
   -H "Content-Type: application/json" \
@@ -94,6 +99,7 @@ curl -X POST https://<api_id>.execute-api.<region>.amazonaws.com/dev \
 - **Secure**, managed entirely with Terraform IaC
 - **AI-powered**, language-flexible (supports English/Turkish responses)
 - **Easy to extend** with new features (multi-channel, CRM integration, etc.)
+<img width="2048" height="955" alt="Adsız tasarım-3 kopyası" src="https://github.com/user-attachments/assets/6f0df7d0-0992-4d03-ac2d-b88577d1453e" />
 
 ## 📌 Repository Info
 - **Repo Name**: ai-customer-service-bot
